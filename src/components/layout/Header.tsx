@@ -209,7 +209,7 @@ const NAV_DATA: NavItem[] = [
     labelGe: 'რუსთაველის პროექტი',
     href: 'https://rustaveli.sabcho.org',
     isExternal: true,
-    intro: 'A digital memorial documenting Georgia's 2024 democracy movement. Eight centuries of moral courage, from Shota Rustaveli to the streets of Tbilisi.',
+    intro: "A digital memorial documenting Georgia's 2024 democracy movement. Eight centuries of moral courage, from Shota Rustaveli to the streets of Tbilisi.",
     introGe: 'ციფრული მემორიალი, რომელიც ასახავს საქართველოს 2024 წლის დემოკრატიულ მოძრაობას. რვა საუკუნის მორალური სიმამაცე.',
     sections: [
       {
