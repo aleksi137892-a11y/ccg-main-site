@@ -28,13 +28,13 @@ export const ExpandableSection: React.FC<ExpandableSectionProps> = ({
       <button
         onClick={() => setIsOpen(!isOpen)}
         className={cn(
-          'inline-flex items-center gap-1 text-navy/60 hover:text-navy transition-colors duration-300 ease-[cubic-bezier(0.22,1,0.36,1)] text-sm',
+          'inline-flex items-center gap-1 text-navy/60 hover:text-navy transition-colors duration-300 ease-emphasized text-sm',
           isGeorgian && 'font-georgian'
         )}
       >
         <span>{displaySummary}</span>
         <span 
-          className="inline-flex items-center transition-transform duration-300 ease-[cubic-bezier(0.22,1,0.36,1)]" 
+          className="inline-flex items-center transition-transform duration-300 ease-emphasized" 
           style={{ transform: isOpen ? 'rotate(90deg)' : 'none' }}
         >
           →

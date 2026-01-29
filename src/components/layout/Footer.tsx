@@ -285,7 +285,7 @@ const Footer: React.FC = () => {
                     <Link
                       to={link.href}
                       className={cn(
-                        'relative text-caption text-white/70 hover:text-white transition-colors duration-300 ease-[cubic-bezier(0.22,1,0.36,1)]',
+                        'relative text-caption text-white/70 hover:text-white transition-colors duration-300 ease-emphasized',
                         'after:absolute after:bottom-0 after:left-0 after:w-full after:h-px after:bg-white/50',
                         'after:scale-x-0 after:origin-right after:transition-transform after:duration-300',
                         'hover:after:scale-x-100 hover:after:origin-left',

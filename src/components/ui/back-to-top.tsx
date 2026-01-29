@@ -69,7 +69,7 @@ export function BackToTop({ threshold = 400, className }: BackToTopProps) {
         "hover:bg-navy-light hover:shadow-xl",
         "active:scale-95",
         // Transitions
-        "transition-all duration-300 ease-[cubic-bezier(0.22,1,0.36,1)]",
+        "transition-all duration-300 ease-emphasized",
         // Visibility
         isVisible
           ? "opacity-100 translate-y-0 pointer-events-auto"

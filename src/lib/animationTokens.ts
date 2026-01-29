@@ -91,8 +91,8 @@ export const staticTransitions = {
 export const cssTransitions = {
   instant: 'transition-all duration-100 ease-out',
   standard: 'transition-all duration-200 ease-out',
-  emphasized: 'transition-all duration-350 ease-[cubic-bezier(0.22,1,0.36,1)]',
-  spatial: 'transition-all duration-400 ease-[cubic-bezier(0.32,0.72,0,1)]',
+  emphasized: 'transition-all duration-350 ease-emphasized',
+  spatial: 'transition-all duration-400 ease-spatial',
 } as const;
 
 /**
